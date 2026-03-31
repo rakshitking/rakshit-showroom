@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rakshit Automobile Showroom</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+.sidebar{
+    position:fixed;
+    width:240px;
+    height:100%;
+    background:#020617;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    color:#38bdf8;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#1e293b;
+}
+
+.main{
+    margin-left:260px;
+    padding:20px;
+}
+
+.hero{
+    height:220px;
+    background:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7') center/cover;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border:none;
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#3b82f6;
+    color:white;
+    cursor:pointer;
+}
+
+.vehicle-img{
+    width:100%;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>Rakshit Showroom</h2>
+<a href="#">Dashboard</a>
+<a href="#">Customers</a>
+<a href="#">Vehicles</a>
+<a href="#">Reports</a>
+<a href="#">Reviews</a>
+<a href="#">Login</a>
+<a href="#">Logout</a>
+</div>
+
+<div class="main">
+
+<div class="hero"></div>
+
+<div class="grid">
+<div class="card">
+<h3>Total Customers</h3>
+<p>150+</p>
+</div>
+<div class="card">
+<h3>Total Vehicles</h3>
+<p>80+</p>
+</div>
+<div class="card">
+<h3>Monthly Sales</h3>
+<p>₹25,00,000</p>
+</div>
+<div class="card">
+<h3>Reviews</h3>
+<p>4.8 ⭐</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Login Panel</h2>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<button>Login</button>
+</div>
+
+<div class="card">
+<h2>Customer Review</h2>
+<p>"Best showroom experience!"</p>
+<p>"Amazing service and fast delivery"</p>
+</div>
+
+<div class="card">
+<h2>Vehicle Showcase</h2>
+<img class="vehicle-img" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d">
+<p>Premium Car - ₹10,00,000</p>
+</div>
+
+<div class="card">
+<h2>Owner Details</h2>
+<p><b>Name:</b> Rakshit</p>
+<p><b>Email:</b> rakshitking94@gmail.com</p>
+<p><b>Mobile:</b> 9638003435</p>
+</div>
+
+<div class="card">
+<h2>Reports</h2>
+<p>Vehicle Sales Report & Analytics Coming Soon...</p>
+</div>
+
+</div>
+
+</body>
+</html>
